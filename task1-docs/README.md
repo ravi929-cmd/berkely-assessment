@@ -9,16 +9,25 @@ Create a Windows VM (Source):
 3. Install IIS:
 
    a. Launch Server Manager > Add Roles and features.
+   
    b. This includes IIS services, Security protocls for TCP activation, Logging tools, ASP .NET features to support .NET app.
+   
    c. Restarted servre and verified IIS and other features installtaion.
 
 5. Deploy Sample .NET app.
+
    a. Install .NET SDK Latest
+   
    b. Install .NET Core Windows Hosting bundle.
+   
    c. verifies .NET installation and created a simple .NET app on server.
+   
    d. Then, published it to C:\.
 
-6. Configure IIS and start app
+7. Configure IIS and start app
+
    a. Created a site on IIS pointing .NET app file location on C:\.
+   
    b. binding port 80.
+   
    c. Started Site on IIS.
