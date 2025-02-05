@@ -1,2 +1,0 @@
-# berkely-assessment
-Assessment
